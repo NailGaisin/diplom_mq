@@ -1,0 +1,1743 @@
+@font-face {
+    font-family: 'OpenSans-Regular';
+    src: url(https://github.com/mgafuri5/diplom_mq/blob/master/fonts/OpenSans-Regular.woff);
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSans-Bold';
+    src: url(https://github.com/mgafuri5/diplom_mq/blob/master/fonts/OpenSans-Bold.woff);
+    font-weight: 700;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 640px) {
+
+    .page_title {
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: url("https://github.com/mgafuri5/diplom_mq/blob/master/img/football_767.jpg?raw=true");
+        background-position: center;
+        background-size: cover;
+        max-width: 100%;
+        z-index: 1;
+
+    }
+
+    .page_title::after {
+        content: "";
+        background-color: #171739;
+        position: absolute;
+        opacity: 0.9;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+
+    .logo_surface {
+        position: relative;
+        width: 45vw;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 3.2vh;
+        padding-bottom: 15px;
+        z-index: 1;
+    }
+
+    .header__slogan {
+        /*display: flex;
+flex-direction: column;*/
+        position: relative;
+        z-index: 1;
+        font-weight: 800;
+        text-transform: uppercase;
+        color: white;
+    }
+
+    span {
+        display: block;
+    }
+
+    .header__slogan1 {
+        font-size: 8.5vw;
+        font-family: 'OpenSans-Bold', Arial, sans-serif;
+        font-weight: 700;
+        margin-left: 5vw;
+        margin-top: 19vh;
+        z-index: 1;
+    }
+
+    .header__slogan2 {
+        font-size: 8.2vw;
+        font-family: 'OpenSans-Bold', Arial, sans-serif;
+        font-weight: 700;
+        margin-left: 21vw;
+        margin-right: 10vw;
+        margin-top: 2.5vh;
+        margin-bottom: 5vh;
+        z-index: 1;
+    }
+
+    .program_download {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        z-index: 1;
+        width: 90vw;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 13.5vh;
+        margin-top: 15vh;
+
+    }
+
+    .download_button {
+        display: flex;
+        align-items: center;
+        margin-top: 1.7vw;
+        margin-bottom: 1.7vw;
+
+    }
+
+
+    .download_block {
+        display: flex;
+        display: inline;
+        flex-direction: column;
+
+    }
+
+    .button {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 50px;
+        background-color: #5e42b0;
+        border-radius: 35px;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-family: 'OpenSans', Arial, sans-serif;
+        font-size: 12px;
+        font-weight: 600;
+        color: #ffffff;
+        border-width: 0;
+
+    }
+
+    .button:hover {
+        background-color: #b062d0;
+    }
+
+    .button:focus {
+        background-color: #b062d0;
+    }
+
+    .centered {
+        display: flex;
+        width: 185px;
+        margin: auto;
+
+    }
+
+    .download_block {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 10px;
+
+    }
+
+    .apple__google_icon {
+        fill: #ffffff;
+        width: 35px;
+        height: 35px;
+        left: 150px;
+    }
+
+    .download {
+        display: inline;
+
+    }
+
+    .download-shop {
+        font-weight: 800;
+
+    }
+
+    .page {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        overflow: hidden;
+
+    }
+
+    .page3 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .headline {
+        text-transform: uppercase;
+        font-family: 'OpenSans-Bold', Arial, sans-serif;
+        font-size: 17vw;
+        color: #E7E7E7;
+        margin-top: 50px;
+        margin-left: 5vw;
+
+    }
+
+    .headline2 {
+        text-transform: uppercase;
+        font-family: 'OpenSans-Bold', Arial, sans-serif;
+        font-size: 17vw;
+        color: #E7E7E7;
+        margin-top: 25px;
+        margin-left: 5vw;
+    }
+
+    .photo-text7 {
+        width: 100%;
+        font-size: 0px;
+    }
+
+    .photo-text8 {
+        position: relative;
+        width: 100%;
+        font-size: 0px;
+    }
+
+
+    .photo-text9 {
+        width: 100%;
+        font-size: 0px;
+    }
+
+    .picture1 {
+        display: block;
+        height: 500px;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .picture2 {
+        display: block;
+        height: 500px;
+        margin-left: auto;
+        margin-right: auto;
+        height: 500px;
+
+    }
+
+    .picture {
+        border: 5px solid green;
+        width: 100%;
+    }
+
+    .picture-7,
+    .picture-8,
+    .picture-9 {
+        width: 100%;
+
+    }
+
+
+
+    .picture,
+    .picture7,
+    .picture8,
+    .picture9 {
+
+        width: 100%;
+
+    }
+
+    .information-block1,
+    .information-block4 {
+        padding-top: 70px;
+        padding-bottom: 50px;
+        padding-left: 4.5vw;
+
+
+    }
+
+    .information-block2,
+    .information-block5 {
+        padding-top: 70px;
+        padding-bottom: 50px;
+        padding-left: 4.5vw;
+        background-color: #f5f4fa;
+        background-position: right bottom;
+
+    }
+
+    .information-block3 {
+        padding-top: 70px;
+        padding-bottom: 50px;
+        padding-left: 4.5vw;
+        background-color: #5C3DB2;
+
+    }
+
+    .information-block6 {
+        padding-top: 70px;
+        padding-bottom: 50px;
+        padding-left: 4.5vw;
+        background-color: #080A33;
+
+    }
+
+    .information-block7 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 75px;
+        margin-bottom: 135px;
+        padding-left: 4.5vw;
+        align-self: center;
+        position: relative;
+        padding-top: 0px;
+        background-color: #ffffff;
+
+    }
+
+    .information-title,
+    .information-title4 {
+        display: inline-block;
+
+    }
+
+    .information-current,
+    .information-current4 {
+        display: inline-block;
+        font-family: 'OpenSans-Bold', Arial, sans-serif;
+        font-size: 3.5vw;
+        font-weight: 800;
+        margin-right: 12px;
+        color: #000000;
+        vertical-align: top;
+
+    }
+
+    .information-current::after {
+        content: "";
+        display: block;
+        background-color: #5e42b0;
+        position: absolute;
+        left: 0;
+        margin: auto;
+        width: 5.5vw;
+        height: 7px;
+        margin-left: 4.5vw;
+    }
+
+    .information-current4::after {
+        content: "";
+        display: block;
+        background-color: #5e42b0;
+        position: absolute;
+        left: 0;
+        margin: auto;
+        width: 5.5vw;
+        height: 7px;
+        margin-left: 4.5vw;
+    }
+
+    .information-current3 {
+        display: inline-block;
+        font-family: 'OpenSans-Bold', Arial, sans-serif;
+        font-size: 4.5vw;
+        font-weight: 800;
+        margin-right: 12px;
+        vertical-align: top;
+        color: #000000;
+    }
+
+    .information-current3::after {
+        content: "";
+        display: block;
+        background-color: #ffffff;
+        position: absolute;
+        left: 0;
+        margin: auto;
+        width: 5.5vw;
+        height: 7px;
+        margin-left: 4.5vw;
+    }
+
+    .information-current6 {
+        position: relative;
+        display: inline-block;
+        font-family: 'OpenSans-Bold', Arial, sans-serif;
+        font-size: 4.5vw;
+        font-weight: 800;
+        color: #6651B0;
+        margin-right: 12px;
+        vertical-align: top;
+        margin-left: 2.5vw;
+    }
+
+    .information-current6::after {
+        content: "";
+        display: block;
+        background-color: #ffffff;
+        position: absolute;
+        left: 0;
+        margin: auto;
+        width: 6.5vw;
+        height: 7px;
+        margin-left: 0vw;
+    }
+
+    .information-current7,
+    .information-current8 {
+        position: absolute;
+        background-color: #5C3DB2;
+        color: #ffffff;
+        display: inline-block;
+        font-family: 'OpenSans-Bold', Arial, sans-serif;
+        font-size: 23px;
+        font-weight: 700;
+        left: 5vw;
+        border: 35px solid #5C3DB2;
+        top: -145px;
+    }
+
+    .information-current7::after {
+        content: "";
+        display: block;
+        background-color: #8D74C7;
+        position: absolute;
+        left: 1px;
+        margin: auto;
+        width: 25px;
+        height: 7px;
+    }
+
+
+    .information-current8::after {
+        content: "";
+        display: block;
+        background-color: #8D74C7;
+        position: absolute;
+        left: 1px;
+        margin: auto;
+        width: 25px;
+        height: 7px;
+    }
+
+
+
+    .information-list-item {
+        display: inline-block;
+        text-transform: uppercase;
+        font-family: 'OpenSans-Bold', Arial, sans-serif;
+        font-size: 6.5vw;
+        font-weight: 700;
+        color: #C1C1C1;
+        padding-right: 30px;
+
+    }
+
+    .information-list-item7 {
+        text-transform: uppercase;
+        font-family: 'OpenSans-Bold', Arial, sans-serif;
+        font-size: 7vw;
+        font-weight: 700;
+        color: #C1C1C1;
+        padding-top: 7px;
+        padding-right: 30px;
+
+    }
+
+    .information-list-text,
+    .information-list-text4,
+    .information-list-text7 {
+        display: inline-block;
+        font-family: 'OpenSans-Regular', Arial, sans-serif;
+        font-size: 4.0vw;
+        font-weight: 600;
+        padding-top: 5vw;
+        padding-bottom: 5vw;
+        padding-right: 5vw;
+
+    }
+
+    .information-list-text3,
+    .information-list-text6 {
+        color: #ffffff;
+        display: inline-block;
+        font-family: 'OpenSans-Regular', Arial, sans-serif;
+        font-size: 4.0vw;
+        font-weight: 600;
+        padding-top: 5vw;
+        padding-bottom: 5vw;
+        padding-right: 5vw;
+
+    }
+
+
+    .end_page_title {
+        background-image: url("https://github.com/mgafuri5/diplom_mq/blob/master/img/game_767.jpg?raw=true");
+        background-position: center;
+        background-size: cover;
+        max-width: 100%;
+        position: relative;
+    }
+
+    .end_page_title::after {
+        content: "";
+        background-color: #171739;
+        position: absolute;
+        opacity: 0.9;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+
+    .small_logo_surface {
+        position: relative;
+        z-index: 1;
+        fill: #ffffff;
+        width: 21vw;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 12vh;
+        background-color: #5e42b0;
+        border-radius: 35px;
+        padding: 23px;
+    }
+
+    .footer__slogan {
+        /*display: flex;
+flex-direction: column;*/
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        z-index: 1;
+        font-weight: 800;
+        text-transform: uppercase;
+        color: white;
+
+    }
+
+    .footer__slogan1 {
+        text-align: center;
+        font-size: 8vw;
+        font-family: 'OpenSans-Bold', Arial, sans-serif;
+        font-weight: 700;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 9vh;
+
+    }
+
+    .footer__slogan2 {
+        text-align: center;
+        font-size: 3.5vw;
+        color: #8987AE;
+        font-family: 'OpenSans-Bold', Arial, sans-serif;
+        font-weight: 600;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1.5vh;
+        margin-bottom: 0vh;
+
+    }
+
+}
+
+
+
+@media (min-width: 641px) and (max-width: 960px) {
+
+
+    .page_title {
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: url("https://github.com/mgafuri5/diplom_mq/blob/master/img/football_1920.jpg?raw=true");
+        background-position: center;
+        background-size: cover;
+        max-width: 100%;
+        z-index: 1;
+
+    }
+
+    .page_title::after {
+        content: "";
+        background-color: #171739;
+        position: absolute;
+        opacity: 0.9;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+
+    .logo_surface {
+        position: relative;
+        width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 3.2vh;
+        z-index: 1;
+    }
+
+    .header__slogan {
+        /*display: flex;
+flex-direction: column;*/
+        position: relative;
+        z-index: 1;
+        font-weight: 800;
+        text-transform: uppercase;
+        color: white;
+
+    }
+
+    span {
+        display: block;
+    }
+
+    .header__slogan1 {
+        text-align: left;
+        font-size: 65px;
+        font-family: 'OpenSans-Bold', Arial, sans-serif;
+        font-weight: 700;
+        margin-left: 12vw;
+        margin-top: 400px;
+        z-index: 1;
+
+    }
+
+    .header__slogan2 {
+        font-size: 60px;
+        font-family: 'OpenSans-Bold', Arial, sans-serif;
+        font-weight: 700;
+        margin-left: 25vw;
+        margin-right: 1vw;
+        margin-top: 1.5vh;
+        margin-bottom: 5vh;
+        z-index: 1;
+
+    }
+
+    .program_download {
+        display: flex;
+        position: relative;
+        z-index: 1;
+        width: 96vw;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 220px;
+        margin-top: 220px;
+
+    }
+
+    .download_button {
+        display: flex;
+        width: 39vw;
+        margin: 22px;
+
+    }
+
+    .button {
+        width: 39vw;
+        height: 70px;
+        background-color: #5e42b0;
+        border-radius: 35px;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-family: 'OpenSans', Arial, sans-serif;
+        font-size: 12px;
+        font-weight: 600;
+        color: #ffffff;
+        border-width: 0;
+
+    }
+
+    .button:hover {
+        background-color: #b062d0;
+    }
+
+    .button:focus {
+        background-color: #b062d0;
+    }
+
+    .centered {
+        display: flex;
+
+        width: 175px;
+        margin: auto;
+        margin-top: 10px;
+    }
+
+    .download_block {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 10px;
+
+    }
+
+    .apple__google_icon {
+        fill: #ffffff;
+
+        width: 45px;
+        height: 45px;
+        margin-left: 0
+    }
+
+    .download {
+        display: inline;
+
+    }
+
+    .download-shop {
+        font-weight: 800;
+
+
+    }
+
+    .page {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        overflow: hidden;
+
+    }
+
+    .page3 {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .headline {
+        text-transform: uppercase;
+        font-family: 'OpenSans-Bold', Arial, sans-serif;
+        font-size: 90px;
+        color: #E7E7E7;
+        margin-top: 75px;
+        margin-left: 35vw;
+        padding-right: 30px;
+    }
+
+    .headline2 {
+        text-transform: uppercase;
+        font-family: 'OpenSans-Bold', Arial, sans-serif;
+        font-size: 80px;
+        color: #E7E7E7;
+        margin-top: 75px;
+        margin-left: 3vw;
+        padding-right: 30px;
+    }
+
+    .photo-text7 {
+        width: 100%;
+        font-size: 0px;
+    }
+
+    .photo-text8 {
+        position: relative;
+        width: 100%;
+        font-size: 0px;
+    }
+
+    .photo-text9 {
+        width: 100%;
+        font-size: 0px;
+    }
+
+    .picture1 {
+        position: absolute;
+        margin-top: -89px;
+        margin-bottom: 15px;
+        height: 800px;
+        right: 58%;
+
+    }
+
+    .picture2 {
+        position: absolute;
+        left: 48%;
+        margin-top: -125px;
+        height: 625px;
+
+    }
+
+    .picture {
+
+        width: 100%;
+    }
+
+    .picture-7,
+    .picture-8,
+    .picture-9 {
+        width: 100%;
+    }
+
+    .picture7,
+    .picture8,
+    .picture9 {
+        width: 100%;
+    }
+
+    .information-block1 {
+        padding-top: 45px;
+        padding-bottom: 0px;
+        padding-left: 35vw;
+
+
+    }
+
+    .information-block2 {
+        padding-top: 55px;
+        padding-left: 35vw;
+        background-color: #f5f4fa;
+        background-position: right bottom;
+
+    }
+
+    .information-block3 {
+        padding-top: 55px;
+        padding-bottom: 0px;
+        padding-left: 35vw;
+        background-color: #5C3DB2;
+
+    }
+
+    .information-block4 {
+        padding-top: 55px;
+        padding-bottom: 0px;
+        padding-left: 3vw;
+
+    }
+
+    .information-block5 {
+        padding-top: 55px;
+        padding-bottom: 0px;
+        padding-left: 3vw;
+        background-color: #F4F3F8;
+        background-position: right bottom;
+
+    }
+
+    .information-block6 {
+        padding-top: 55px;
+        padding-bottom: 15px;
+        padding-left: 3vw;
+        background-color: #080A33;
+
+    }
+
+    .information-block7 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 85px;
+        margin-bottom: 95px;
+        align-self: center;
+        position: relative;
+        background-color: #ffffff;
+
+    }
+
+    .information-title {
+        display: inline-block;
+
+    }
+
+    .information-title4 {
+        display: inline-block;
+
+    }
+
+    .information-current {
+        display: inline-block;
+        vertical-align: top;
+        font-family: 'OpenSans-Bold', Arial, sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        margin-right: 10px;
+        color: #000000;
+    }
+
+    .information-current::after {
+        content: "";
+        display: block;
+        background-color: #5e42b0;
+        position: absolute;
+        width: 21px;
+        height: 5px;
+    }
+
+    .information-current3 {
+        display: inline-block;
+        vertical-align: top;
+        font-family: 'OpenSans-Bold', Arial, sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        margin-right: 10px;
+        color: #000000;
+    }
+
+    .information-current3::after {
+        content: "";
+        display: block;
+        background-color: #ffffff;
+        position: absolute;
+        width: 21px;
+        height: 5px;
+    }
+
+    .information-current4 {
+        display: inline-block;
+        vertical-align: top;
+        font-family: 'OpenSans-Bold', Arial, sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        margin-right: 10px;
+        color: #000000;
+    }
+
+    .information-current4::after {
+        content: "";
+        display: block;
+        background-color: #5e42b0;
+        position: absolute;
+        width: 21px;
+        height: 5px;
+    }
+
+    .information-current6 {
+        position: relative;
+        display: inline-block;
+        font-family: 'OpenSans-Bold', Arial, sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        color: #6651B0;
+        vertical-align: top;
+        margin-right: 10px;
+    }
+
+    .information-current6::after {
+        content: "";
+        display: block;
+        background-color: #ffffff;
+        position: absolute;
+        left: 0vw;
+        width: 21px;
+        height: 3px;
+
+    }
+
+    .information-current7,
+    .information-current8 {
+        position: absolute;
+        background-color: #5C3DB2;
+        color: #ffffff;
+        display: inline-block;
+        font-family: 'OpenSans-Bold', Arial, sans-serif;
+        font-size: 23px;
+        font-weight: 700;
+        left: 5vw;
+        border: 35px solid #5C3DB2;
+        bottom: 235px;
+    }
+
+    .information-current7::after {
+        content: "";
+        display: block;
+        background-color: #8D74C7;
+        position: absolute;
+        left: 1px;
+        margin: auto;
+        width: 25px;
+        height: 7px;
+    }
+
+
+    .information-current8::after {
+        content: "";
+        display: block;
+        background-color: #8D74C7;
+        position: absolute;
+        left: 1px;
+        margin: auto;
+        width: 25px;
+        height: 7px;
+    }
+
+
+    .information-list-item {
+        display: inline-block;
+        text-transform: uppercase;
+        font-family: 'OpenSans-Bold', Arial, sans-serif;
+        font-size: 33px;
+        font-weight: 700;
+        vertical-align: middle;
+        color: #C1C1C1;
+        padding-right: 30px;
+        padding-left: 0px;
+    }
+
+    .information-list-item7 {
+        text-transform: uppercase;
+        font-family: 'OpenSans-Bold', Arial, sans-serif;
+        font-size: 80px;
+        font-weight: 700;
+        color: #C1C1C1;
+        padding-left: 20px;
+        margin-top: 0px;
+        padding-right: 30px;
+
+    }
+
+    .information-list-text {
+        font-family: 'OpenSans-Regular', Arial, sans-serif;
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 1.3;
+        font-stretch: extra-expanded;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        margin-left: 0px;
+        padding-right: 30px;
+
+    }
+
+    .information-list-text3 {
+        color: #ffffff;
+        font-family: 'OpenSans-Regular', Arial, sans-serif;
+        font-size: 18px;
+        font-weight: 300;
+        font-stretch: extra-expanded;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-right: 30px;
+
+    }
+
+    .information-list-text4 {
+        font-family: 'OpenSans-Regular', Arial, sans-serif;
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 1.3;
+        font-stretch: extra-expanded;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        margin-right: 40%;
+        padding-right: 30px;
+
+    }
+
+
+    .information-list-text6 {
+        color: #ffffff;
+        font-family: 'OpenSans-Regular', Arial, sans-serif;
+        font-size: 20px;
+        font-weight: 300;
+        font-stretch: extra-expanded;
+        line-height: 1.3;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        margin-right: 40%;
+        padding-right: 30px;
+
+    }
+
+    .information-list-text7 {
+        font-family: 'OpenSans-Regular', Arial, sans-serif;
+        font-size: 24px;
+        font-weight: 400;
+        font-stretch: extra-expanded;
+        line-height: 1.3;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        padding-left: 15px;
+        padding-right: 30px;
+
+    }
+
+    .end_page_title {
+        background-image: url("https://github.com/mgafuri5/diplom_mq/blob/master/img/game_767.jpg?raw=true");
+        background-position: center;
+        background-size: cover;
+        max-width: 100%;
+        position: relative;
+        padding-top: 25px;
+        padding-bottom: 60px;
+    }
+
+    .end_page_title::after {
+        content: "";
+        background-color: #171739;
+        position: absolute;
+        opacity: 0.9;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+
+    .small_logo_surface {
+        position: relative;
+        z-index: 1;
+        fill: #ffffff;
+        width: 21vw;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 12vh;
+        padding: 23px;
+        background-color: #5e42b0;
+        border-radius: 30px;
+    }
+
+    .footer__slogan {
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        z-index: 1;
+        font-weight: 800;
+        text-transform: uppercase;
+        color: white;
+
+    }
+
+    .footer__slogan1 {
+        text-align: center;
+        font-size: 8vw;
+        font-family: 'OpenSans-Bold', Arial, sans-serif;
+        font-weight: 700;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 9vh;
+
+    }
+
+    .footer__slogan2 {
+        text-align: center;
+        font-size: 3.5vw;
+        color: #8987AE;
+        font-family: 'OpenSans-Bold', Arial, sans-serif;
+        font-weight: 600;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1.5vh;
+        margin-bottom: 0vh;
+
+    }
+
+
+}
+
+
+
+
+
+
+@media (min-width: 961px) {
+
+
+    .page_title {
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: url("https://github.com/mgafuri5/diplom_mq/blob/master/img/football_1920.jpg?raw=true");
+        background-position: center;
+        background-size: cover;
+        max-width: 100%;
+        z-index: 1;
+
+    }
+
+    .page_title::after {
+        content: "";
+        background-color: #171739;
+        position: absolute;
+        opacity: 0.9;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+
+    .logo_surface {
+        position: relative;
+        width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 40px;
+        z-index: 1;
+    }
+
+    .header__slogan {
+        /*display: flex;
+flex-direction: column;*/
+        position: relative;
+        z-index: 1;
+        font-weight: 800;
+        text-transform: uppercase;
+        color: white;
+
+    }
+
+    span {
+        display: block;
+    }
+
+    .header__slogan1 {
+        text-align: left;
+        font-size: 85px;
+        font-family: 'OpenSans-Bold', Arial, sans-serif;
+        font-weight: 700;
+        margin-left: 200px;
+        margin-top: 400px;
+        z-index: 1;
+
+    }
+
+    .header__slogan2 {
+        font-size: 90px;
+        font-family: 'OpenSans-Bold', Arial, sans-serif;
+        font-weight: 700;
+        margin-left: 25vw;
+        margin-right: 1vw;
+        margin-top: 1.5vh;
+        margin-bottom: 5vh;
+        z-index: 1;
+
+    }
+
+    .program_download {
+        display: flex;
+        position: relative;
+        z-index: 1;
+        width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 220px;
+        margin-top: 220px;
+
+    }
+
+    .download_button {
+        display: flex;
+        width: 300px;
+        margin: 22px;
+
+    }
+
+    .button {
+        width: 300px;
+        height: 70px;
+        background-color: #5e42b0;
+        border-radius: 35px;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-family: 'OpenSans', Arial, sans-serif;
+        font-size: 12px;
+        font-weight: 600;
+        color: #ffffff;
+        border-width: 0;
+
+    }
+
+    .button:hover {
+        background-color: #b062d0;
+    }
+
+    .button:focus {
+        background-color: #b062d0;
+    }
+
+    .centered {
+        display: flex;
+        width: 175px;
+        margin: auto;
+        margin-top: 10px;
+    }
+
+    .download_block {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 10px;
+    }
+
+    .apple__google_icon {
+        fill: #ffffff;
+
+        width: 45px;
+        height: 45px;
+    }
+
+    .download {
+        display: inline;
+    }
+
+    .download-shop {
+        font-weight: 800;
+    }
+
+
+    .page {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .page3 {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .headline {
+        text-transform: uppercase;
+        font-family: 'OpenSans-Bold', Arial, sans-serif;
+        font-size: 90px;
+        color: #E7E7E7;
+        margin-top: 80px;
+        margin-left: 50vw;
+        padding-right: 30px;
+    }
+
+    .headline2 {
+        text-transform: uppercase;
+        font-family: 'OpenSans-Bold', Arial, sans-serif;
+        font-size: 80px;
+        color: #E7E7E7;
+        margin-top: 115px;
+        margin-left: 10vw;
+        padding-right: 30px;
+    }
+
+    .photo-text7 {
+        display: flex;
+
+        width: 100%;
+        font-size: 0px;
+    }
+
+    .photo-text8 {
+        display: flex;
+        position: relative;
+        width: 100%;
+        font-size: 0px;
+    }
+
+    .picture-8 {
+        order: 1;
+    }
+
+    .photo-text9 {
+        display: flex;
+        width: 100%;
+        font-size: 0px;
+    }
+
+    .picture1 {
+        position: absolute;
+        margin-top: -150px;
+        margin-bottom: 15px;
+        height: 800px;
+        right: 50%;
+
+    }
+
+    .picture2 {
+        position: absolute;
+        left: 50%;
+        margin-top: -195px;
+        height: 800px;
+
+    }
+
+    .picture {
+
+        width: 100%;
+    }
+
+    .picture-7,
+    .picture-9 {
+        width: 50%;
+
+    }
+
+    .picture-8 {
+        width: 50%;
+        order: 1;
+
+    }
+
+    .picture7,
+    .picture8,
+    .picture9 {
+        width: 100%;
+    }
+
+    .information-block1 {
+        padding-top: 55px;
+        padding-bottom: 55px;
+        padding-left: 50vw;
+
+
+    }
+
+    .information-block2 {
+        padding-top: 55px;
+        padding-left: 50vw;
+        background-color: #f5f4fa;
+        background-position: right bottom;
+
+    }
+
+    .information-block3 {
+        padding-top: 55px;
+        padding-bottom: 45px;
+        padding-left: 50vw;
+        background-color: #5C3DB2;
+
+    }
+
+    .information-block4 {
+        padding-top: 45px;
+        padding-bottom: 45px;
+        padding-left: 10vw;
+
+    }
+
+    .information-block5 {
+        padding-top: 45px;
+        padding-bottom: 45px;
+        padding-left: 10vw;
+        background-color: #F4F3F8;
+        background-position: right bottom;
+
+    }
+
+    .information-block6 {
+        padding-top: 45px;
+        padding-bottom: 45px;
+        padding-left: 10vw;
+        background-color: #080A33;
+
+    }
+
+    .information-block7 {
+        display: flex;
+        flex-direction: column;
+        /*flex-grow: 1;*/
+        align-self: center;
+        width: 50%;
+        position: relative;
+        padding-top: 0px;
+        background-color: #ffffff;
+
+    }
+
+    .information-title {
+        display: inline-block;
+
+    }
+
+    .information-title4 {
+        display: inline-block;
+
+    }
+
+    .information-current {
+        display: inline-block;
+        vertical-align: top;
+        font-family: 'OpenSans-Bold', Arial, sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        margin-right: 10px;
+        color: #000000;
+    }
+
+    .information-current::after {
+        content: "";
+        display: block;
+        background-color: #5e42b0;
+        position: absolute;
+        width: 21px;
+        height: 5px;
+    }
+
+    .information-current3 {
+        display: inline-block;
+        vertical-align: top;
+        font-family: 'OpenSans-Bold', Arial, sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        margin-right: 10px;
+        color: #000000;
+    }
+
+    .information-current3::after {
+        content: "";
+        display: block;
+        background-color: #ffffff;
+        position: absolute;
+        width: 21px;
+        height: 5px;
+    }
+
+    .information-current4 {
+        display: inline-block;
+        vertical-align: top;
+        font-family: 'OpenSans-Bold', Arial, sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        margin-right: 10px;
+        color: #000000;
+    }
+
+    .information-current4::after {
+        content: "";
+        display: block;
+        background-color: #5e42b0;
+        position: absolute;
+        width: 21px;
+        height: 5px;
+    }
+
+    .information-current6 {
+        position: relative;
+        display: inline-block;
+        font-family: 'OpenSans-Bold', Arial, sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        color: #6651B0;
+        vertical-align: top;
+        margin-right: 10px;
+    }
+
+    .information-current6::after {
+        content: "";
+        display: block;
+        background-color: #ffffff;
+        position: absolute;
+        width: 21px;
+        height: 3px;
+
+    }
+
+    .information-current7 {
+        position: absolute;
+        background-color: #5C3DB2;
+        color: #ffffff;
+        display: inline-block;
+        font-family: 'OpenSans-Bold', Arial, sans-serif;
+        font-size: 23px;
+        font-weight: 700;
+        left: -81px;
+        border: 65px solid #5C3DB2;
+        top: 25px;
+    }
+
+    .information-current7::after {
+        content: "";
+        display: block;
+        background-color: #8D74C7;
+        position: absolute;
+        left: 1px;
+        margin: auto;
+        width: 25px;
+        height: 3px;
+    }
+
+    .information-current8 {
+        position: absolute;
+        background-color: #5C3DB2;
+        color: #ffffff;
+        display: inline-block;
+        font-family: 'OpenSans-Bold', Arial, sans-serif;
+        font-size: 23px;
+        font-weight: 700;
+        left: 91%;
+        border: 65px solid #5C3DB2;
+        top: 25px;
+        ;
+
+    }
+
+    .information-current8::after {
+        content: "";
+        display: block;
+        background-color: #8D74C7;
+        position: absolute;
+        left: 1px;
+        margin: auto;
+        width: 25px;
+        height: 3px;
+    }
+
+    .information-list-item {
+        display: inline-block;
+        text-transform: uppercase;
+        font-family: 'OpenSans-Bold', Arial, sans-serif;
+        font-size: 33px;
+        font-weight: 700;
+        vertical-align: middle;
+        color: #C1C1C1;
+        padding-left: 0px;
+    }
+
+    .information-list-item7 {
+        text-transform: uppercase;
+        font-family: 'OpenSans-Bold', Arial, sans-serif;
+        font-size: 42px;
+        font-weight: 700;
+        color: #C1C1C1;
+        padding-left: 85px;
+        margin-top: 75px;
+        padding-right: 30px;
+
+    }
+
+    .information-list-text {
+        font-family: 'OpenSans-Regular', Arial, sans-serif;
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 1.3;
+        font-stretch: extra-expanded;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        margin-left: 0px;
+        padding-right: 30px;
+
+    }
+
+    .information-list-text3 {
+        color: #ffffff;
+        font-family: 'OpenSans-Regular', Arial, sans-serif;
+        font-size: 18px;
+        font-weight: 300;
+        font-stretch: extra-expanded;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-right: 30px;
+
+    }
+
+    .information-list-text4 {
+        font-family: 'OpenSans-Regular', Arial, sans-serif;
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 1.3;
+        font-stretch: extra-expanded;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        margin-right: 40%;
+        padding-right: 30px;
+
+    }
+
+
+    .information-list-text6 {
+        color: #ffffff;
+        font-family: 'OpenSans-Regular', Arial, sans-serif;
+        font-size: 20px;
+        font-weight: 300;
+        font-stretch: extra-expanded;
+        line-height: 1.3;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        margin-right: 40%;
+        padding-right: 30px;
+
+    }
+
+    .information-list-text7 {
+        font-family: 'OpenSans-Regular', Arial, sans-serif;
+        font-size: 20px;
+        font-weight: 300;
+        font-stretch: extra-expanded;
+        line-height: 1.3;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        padding-left: 85px;
+        padding-right: 75px;
+
+    }
+
+
+    .end_page_title {
+        background-image: url("https://github.com/mgafuri5/diplom_mq/blob/master/img/game_767.jpg?raw=true");
+        background-position: center;
+        background-size: cover;
+        max-width: 100%;
+        position: relative;
+        padding-top: 25px;
+        padding-bottom: 60px;
+    }
+
+    .end_page_title::after {
+        content: "";
+        background-color: #171739;
+        position: absolute;
+        opacity: 0.9;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+
+    .footer__slogan {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        max-width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+        z-index: 1;
+        font-weight: 800;
+        text-transform: uppercase;
+        color: #ffffff;
+        margin-top: 270px;
+    }
+
+    .small_logo_surface {
+        z-index: 1;
+        fill: #ffffff;
+        width: 175px;
+        background-color: #5e42b0;
+        border-radius: 45px;
+        padding: 23px;
+        flex-shrink: 0;
+    }
+
+    .footer__slogan1 {
+        font-size: 82px;
+        font-family: 'OpenSans-Bold', Arial, sans-serif;
+        font-weight: 700;
+        margin-left: 95px;
+    }
+
+    .footer__slogan2 {
+        font-size: 36px;
+        font-family: 'OpenSans-Bold', Arial, sans-serif;
+        font-weight: 500;
+        color: #5e42b0;
+        margin-left: 95px;
+    }
+
+}
+
+
+
+
